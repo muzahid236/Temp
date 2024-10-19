@@ -1,0 +1,73 @@
+/* #mybox{
+
+
+    background-color: lightgreen; 
+    width:300px;
+     height: 300px;
+     font-size: 4.5rem;
+     display: flex;
+     text-align: center;
+     align-items: center;
+     position: relative;
+}
+body{
+    margin: 0;
+}
+#mybtn{
+    font-size: 2.5rem;
+}
+#mybtn:hover{
+    background-color:lightskyblue;
+}
+#mybtn:focus{
+    background-color: aqua;
+} */
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 95%);
+}
+
+h1{
+    color: hsl(223,100%,64%);
+}
+form{
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    max-width: 371px;
+    margin: auto;
+    padding: 25px;
+    border-radius:10px ;
+    box-shadow: 5px 5px 55px hsla(0, 0%, 0%, 0.8);
+   position: relative;
+   top: 80px;
+}
+#textbox{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid hsla(0, 0%, 0%, 0.8);
+    border-radius: 4px;
+    margin: 15px;
+}
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+button{
+    margin-top: 15px;
+    background-color: hsl(0, 100%, 60%);
+    color: white;
+    font-size: 1.5em;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#result{
+    font-size: 1.65em;
+    font-weight: bold;
+}
+#tem{
+    font-size: 3rem;
+}
